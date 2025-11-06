@@ -2,7 +2,7 @@
 # tasks file for appserver
 - name: 'update website from the git repository'
   git:
-    repo: "{{ repository_url }}"
+    repo: "https://github.com/palbarto/cicd02-starter"
     dest: "{{ install_dir }}"
     single_branch: true
     version: deploy
